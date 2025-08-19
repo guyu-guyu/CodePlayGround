@@ -1,0 +1,1 @@
+void printTwoLine(char* line1, char* line2);
