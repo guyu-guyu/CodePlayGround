@@ -1,0 +1,22 @@
+{
+  "name": "guyu-electron",
+  "version": "1.0.0",
+  "description": "learn electron project",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "guyu-electron"
+  },
+  "keywords": [
+    "guyuelectron"
+  ],
+  "author": "guyu",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^37.3.1"
+  }
+}

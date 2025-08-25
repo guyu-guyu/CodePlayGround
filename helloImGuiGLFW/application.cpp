@@ -2,7 +2,6 @@
 #include <iostream>
 #include <string>
 #include <imgui_internal.h>
-#pragma warning(disable:4819)
 
 namespace App
 {

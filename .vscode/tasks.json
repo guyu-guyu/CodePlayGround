@@ -6,10 +6,13 @@
             "command": "C:/ProgramData/mingw64/mingw64/bin/gcc.exe",
             "args": [
                 "-fdiagnostics-color=always",
+                "-I",
+                "E:\\person\\CodePlayGround\\helloImGuiGLFW\\imgui",
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "E:\\person\\CodePlayGround\\helloImGuiGLFW\\imgui\\GLFW\\lib-vc2010-64\\glfw3.lib"
             ],
             "options": {
                 "cwd": "C:/ProgramData/mingw64/mingw64/bin"
