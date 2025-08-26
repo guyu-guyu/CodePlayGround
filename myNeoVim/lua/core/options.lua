@@ -1,5 +1,11 @@
 local opt = vim.opt
 
+--配置缩进
+opt.tabstop = 2
+opt.shiftwidth = 2
+opt.expandtab = true
+opt.autoindent = true
+
 --显示行号
 opt.relativenumber = true
 opt.number = true

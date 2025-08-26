@@ -1,2 +1,2 @@
 -- define your colorscheme here
-vim.cmd('colorscheme nord')
+vim.cmd('colorscheme tokyonight-storm')
